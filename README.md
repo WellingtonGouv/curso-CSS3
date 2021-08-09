@@ -21,10 +21,29 @@ No Inline Style, aplicamos a formatação diretamente no elemento, na Internal S
     Bacon ipsum dolor amet spare ribs ham biltong shankle 
     jerky, rump meatloaf salami.
 </p>
-<p style="color: green;"> 
+<p style="color: green"> 
     Bacon ipsum dolor amet spare ribs ham biltong shankle 
     jerky, rump meatloaf salami.
 </p>
 ```
 <img src="Prints Exemplos\inline_exemplo.png">
 
+
+### Seletores
+
+Podemos utilizar seletores para a estilização, a estrutura deles é formada pela tag HTML que desejamos formatar e as propriedades que desejamos estilizar.
+
+Exemplo(Internal Style Sheet):
+
+```
+<style type="text/css">
+    p {
+        color: red;
+    }
+    h1 {
+        color: blue;
+    }
+</style>
+```
+
+<img src="Prints Exemplos\seletores_exemplo.png">
