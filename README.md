@@ -26,6 +26,7 @@ No Inline Style, aplicamos a formatação diretamente no elemento, na Internal S
     jerky, rump meatloaf salami.
 </p>
 ```
+#### Resultado:
 <img src="Prints Exemplos\inline_exemplo.png">
 
 
@@ -45,5 +46,39 @@ Exemplo(Internal Style Sheet):
     }
 </style>
 ```
-
+#### Resultado:
 <img src="Prints Exemplos\seletores_exemplo.png">
+
+### Classes e IDs
+Um Id é um identificador, utilizamos para definir a estilização de um único intem. Por outro lado, temos as Classes, que podem ser usadas para estilizar vários elementos. 
+
+Exemplos:
+```
+<style type="text/css">
+    /*Classe para definir cor azul*/
+    .azul {
+        color: blue;
+    }
+    /*Id principal*/
+    #principal {
+        background: orange;
+    }
+</style>
+```
+```
+<body id="principal">
+    <h1> Estilo CSS (Cascading Style Sheets)</h1>
+    <p class="azul">
+        Bacon ipsum dolor amet spare ribs ham biltong shankle 
+        jerky, rump meatloaf salami.
+    </p>
+    <p class="azul"> 
+        Bacon ipsum dolor amet spare ribs ham biltong shankle 
+        jerky, rump meatloaf salami.
+    </p>
+</body>
+```
+#### Resultado:
+<img src="Prints Exemplos\classes_ids_exemplo.png">
+
+
