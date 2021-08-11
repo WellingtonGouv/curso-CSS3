@@ -81,4 +81,45 @@ Exemplos:
 #### Resultado:
 <img src="Prints Exemplos\classes_ids_exemplo.png">
 
+### Div e Span
+A Div é uma divisão que pode ser utilizada para agrupar elementos. Por padrão, ela é um elemento do tipo block, ou seja, ocupa toda a largura da tela.
+Já o Span, agrupa os elementos linha por linha, não ocupando a tela toda.
 
+```
+<style type="text/css">
+    #conteudo {
+        background: red;
+    }
+    #rodape {
+        background: yellow;
+    }
+    .produto {
+        background: gray;
+        /*Margem*/
+        margin: 10px; 
+    }
+    .azul {
+        background: blue;
+    }
+</style>
+
+```
+```
+<div id="conteudo">
+    <div class="produto">
+        Produto 1
+    </div>
+    <div class="produto">
+        Produto 2
+    </div>
+    <div class="produto">
+        Produto 3
+    </div>
+</div>
+<div id="rodape">
+    Todos os <span class="azul">direitos</span> reservados
+</div>
+```
+
+#### Resultado:
+<img src="Prints Exemplos\div_span_exemplo.png">
