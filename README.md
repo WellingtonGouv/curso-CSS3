@@ -139,4 +139,34 @@ border-style: outset;
 Definir as características da borda separadamente, nos dá a vantagem de definir cada lado da borda.<br>
 #### Exemplo:
 <img src="Prints Exemplos\bordas_exemplo.png">
-Para mais exemplos de estilos de bordas, podemos acessar esse <a src="https://www.w3schools.com/css/css_border.asp">link</a>.
+Para mais exemplos de estilos de bordas, podemos acessar esse <a href="https://www.w3schools.com/css/css_border.asp">link</a>.
+
+### Fontes e Cores
+Podemos definir as cores no css de várias maneiras, para as cores mais simples, podemos simplismente escrever o nome delas.
+<br>
+Exemplo:
+```
+color : red;
+```
+Para cores mais complexas, podemos utilizar seu código no formato hexadecimal, como no exemplo a seguir:
+```
+color: #AB11CD;
+```
+Também, podemos utilizar seu código rgb da seguinte maneira:
+```
+color: rgb(255, 0, 255);
+```
+#### Resultado: 
+<img src="Prints Exemplos\cores_exemplo.png">
+
+Podemos definir, também, as fontes para os nossos textos, definindo o tamanho e também a família da fonte. Ao escolher a família da fonte, estamos definindo uma prioridade, pois se o usuário não possuir aquela fonte, ele passa para a próxima até uma fonte genérica.
+
+```
+.formatacao {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+```
+
+#### Resultado:
+<img src="Prints Exemplos\fontes_exemplo.png">
