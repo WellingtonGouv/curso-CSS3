@@ -207,3 +207,35 @@ font: bold 40px 'Times New Roman', Times, serif;
 ```
 #### Resultado
 <img src="Prints Exemplos\estilo_textos_exemplo.png">
+
+### Cores e Imagens de fundo
+Para definirmos um background para o nosso site, podemos utilizar cores e imagens. Para elas, podemos definir várias características na estilização, como a repetição da imagem, a posição dela na tela, entre outros.<br>
+Definindo imagem como background:
+```
+background-image: url("imagens/homemaranha.png");
+```
+Definindo a repetição da imagem na tela:
+```
+/*repeat-x, repeat-y, no-repeat, repeat*/
+background-repeat: no-repeat;
+```
+Definindo se a imagem segue o scroll ou não:
+```
+/*scroll, fixed*/
+background-attachment: fixed;
+```
+Definindo posição da imagem na tela:
+```
+/*
+  primeiro valor: left, center, right
+  segundo valor: top, centerm bottom
+*/
+background-position: bottom right;
+```
+
+Podemos também, definir tudo isso de uma vez só:
+```
+background: blue url("imagens/homemaranha.png") no-repeat fixed center top;
+```
+#### Resultado:
+<img src="Prints Exemplos\background_exemplo.png">
