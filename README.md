@@ -185,3 +185,25 @@ Ao definirmos o tamanho do conteiner pai com 60px, uma fonte de tamanho 2em seri
 
 #### Resultado:
 <img src="Prints Exemplos\tamanho_textos_exemplo.png">
+
+### Estilos de textos
+Para definir os estilos dos textos, podemos fazer de diversas maneiras, para escrever um texto em negrito, podemos escrever 'bold' ou um número de 100 a 900 para definir o nível, por exemplo:
+```
+font-weight: 900;
+```
+Para escrever um texto em itálico, podemos utilizar o seguinte código:
+```
+font-style: italic;
+```
+Para colocar linhas no textos, podemos utilizar destas 3 formas:
+```
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+```
+Além disso, podemos realizar essas formatações de uma só vez, podendo agrupar essas características em uma linha.
+```
+font: bold 40px 'Times New Roman', Times, serif;
+```
+#### Resultado
+<img src="Prints Exemplos\estilo_textos_exemplo.png">
