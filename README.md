@@ -170,3 +170,18 @@ Podemos definir, também, as fontes para os nossos textos, definindo o tamanho e
 
 #### Resultado:
 <img src="Prints Exemplos\fontes_exemplo.png">
+
+### Tamanho de textos
+Podemos definir o tamanho dos nossos textos, utilizando essas 3 formas. Podemos definir por pixels, que é uma forma fixa.
+```
+font-size: 60px;
+```
+De maneira relativa, podemos utilizar % ou 'em' para definir o tamanho do texto de acordo com o container pai.
+```
+font-size: 2em;
+font-size: 50%;
+```
+Ao definirmos o tamanho do conteiner pai com 60px, uma fonte de tamanho 2em seria o dobro, ou seja, 120px, enquanto 50% seria a metade, que é 30px.
+
+#### Resultado:
+<img src="Prints Exemplos\tamanho_textos_exemplo.png">
