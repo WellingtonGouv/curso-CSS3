@@ -123,3 +123,20 @@ Já o Span, agrupa os elementos linha por linha, não ocupando a tela toda.
 
 #### Resultado:
 <img src="Prints Exemplos\div_span_exemplo.png">
+
+### Bordas
+Como o nome ja diz, podemos utilizar bordas nas tags html. Para criar uma borda, definimos sua espessura, seu estilo e a cor. Podemos fazer de duas maneiras: <br>
+Definindo suas característica em uma linha só:
+```
+border: 5px solid red;
+```
+Definindo cada característica separadamente:
+```
+border-color: blue yellow green orange;
+border-width: 15px;
+border-style: outset;
+```
+Definir as características da borda separadamente, nos dá a vantagem de definir cada lado da borda.<br>
+#### Exemplo:
+<img src="Prints Exemplos\bordas_exemplo.png">
+Para mais exemplos de estilos de bordas, podemos acessar esse <a src="https://www.w3schools.com/css/css_border.asp">link</a>.
