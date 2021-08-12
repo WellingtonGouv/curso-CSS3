@@ -239,3 +239,19 @@ background: blue url("imagens/homemaranha.png") no-repeat fixed center top;
 ```
 #### Resultado:
 <img src="Prints Exemplos\background_exemplo.png">
+
+### Css Externo
+Podemos centralizar todos os estilos do nosso site em um lugar só. Ao utilizarmos de um arquivo .css e o referenciando, todos os sites utilizarão os estilos contidos nele. Exemplo no arquivo estilo.css:
+```
+.texto{
+    color: red;
+    background: orange;
+}
+```
+Referenciação no arquivo html:
+```
+<link rel="stylesheet" type="text/css" href="estilo.css">
+```
+
+#### Resultado
+<img src="Prints Exemplos\css_externo_exemplo.png">
