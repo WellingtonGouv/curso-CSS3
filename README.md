@@ -255,3 +255,23 @@ Referenciação no arquivo html:
 
 #### Resultado
 <img src="Prints Exemplos\css_externo_exemplo.png">
+
+### Modelo de caixa
+As tags html se comportam como caixas, com isso, podemos atribuir diversos estilos nelas, como margens e bordas.
+Definindo espaçamentos:
+```
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+```
+Definindo margens: 
+```
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+```
+
+#### Resultado
+<img src="Prints Exemplos\modelo_caixa_exemplo.png">
