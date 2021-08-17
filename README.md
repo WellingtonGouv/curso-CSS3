@@ -321,3 +321,32 @@ left: 80px;
 
 #### Resultado
 <img src="Prints Exemplos\posicionamento_relativo_exemplo.png">
+
+### Posicionamentos (Absotuluto e fixo)
+Assim como os posicionamentos estático e relativo, também temos o absoluto e o fixo. <br>
+O posicionamento absoluto, faz com que o elemento fique parado na posição atribuída em relação ao conteiner, ou seja, o elemento fica no lugar quando usamos o scroll. <br>
+O posicionamento fixo, fixa o elemento na sua posição definida em relação à tela, ou seja, se usarmos o scroll o elemento se movimenta junto.
+
+Exemplo:
+```
+.absolute {
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+```
+
+```
+.fixed {
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+}
+```
+
+#### Resultado
+<img src="Prints Exemplos\posicionamento_fixo_absoluto_exemplo.png">
