@@ -1,0 +1,9 @@
+.borda {
+    border: 1px solid red;
+    display: inline;
+}
+
+.borda1 {
+    border: 1px solid blue;
+    display: block;
+}

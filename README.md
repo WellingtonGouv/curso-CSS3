@@ -293,3 +293,19 @@ clear: both;
 Com os elementos flutuantes, podemos fazer diversas coisas. Uma delas, é um site de noticias com uma galeria de fotos, como no exemplo a seguir.
 
 <img src="Prints Exemplos\elemento_flutuante_pratica_exemplo.png">
+
+### Elementos bloco
+Podemos dividir dividir os elementos html em dois grandes grupos: o grupo Inline, o grupo Block e o grupo Inline-block que é uma mistura dos dois. <br>
+Os elementos do tipo bloco ocupam toda a largura da tela, ou seja, quando temos mais de um bloco, eles ficam um embaixo do outro. <br>
+Exemplo:
+```
+display: block;
+```
+Já o elemento do tipo inline, ocupam somente o espaço do seu conteúdo, ou seja, quando temos mais de um, eles podem ficar na mesma linha. <br>
+Exemplo:
+```
+display: inline;
+```
+
+#### Resultado
+<img src="Prints Exemplos\elemento_bloco_exemplo.png">
