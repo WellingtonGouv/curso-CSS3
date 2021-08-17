@@ -288,3 +288,8 @@ clear: both;
 
 #### Resultado
 <img src="Prints Exemplos\elemento_flutuante_exemplo.png">
+
+### Elementos flutuantes na prática
+Com os elementos flutuantes, podemos fazer diversas coisas. Uma delas, é um site de noticias com uma galeria de fotos, como no exemplo a seguir.
+
+<img src="Prints Exemplos\elemento_flutuante_pratica_exemplo.png">
