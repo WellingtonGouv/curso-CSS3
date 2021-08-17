@@ -309,3 +309,15 @@ display: inline;
 
 #### Resultado
 <img src="Prints Exemplos\elemento_bloco_exemplo.png">
+
+### Posicionamentos (Estático e Relativo)
+Podemos mudar o posicionamento dos elementos html. Por padrão, algumas tags tem posicionamento estático, mas podemos mudá-las para relativo, atribuindo sua posição top, bottom, left e right a partir da posição inicial. <br>
+Exemplo:
+```
+position: relative;
+top: 20px;
+left: 80px;
+```
+
+#### Resultado
+<img src="Prints Exemplos\posicionamento_relativo_exemplo.png">
