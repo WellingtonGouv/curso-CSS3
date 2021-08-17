@@ -350,3 +350,12 @@ Exemplo:
 
 #### Resultado
 <img src="Prints Exemplos\posicionamento_fixo_absoluto_exemplo.png">
+
+### Sobrepondo elementos
+Podemos sobrepor elementos de uma maneira muito simples. Utilizando o `z-index` e o maior número atribuído ficará sobreposto aos conteúdos com o menor número. <br>
+Exemplo:
+```
+z-index: 1;
+```
+#### Resultado
+<img src="Prints Exemplos\sobrepor_elemento_exemplo.png">
