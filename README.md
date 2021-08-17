@@ -275,3 +275,16 @@ margin-bottom: 20px;
 
 #### Resultado
 <img src="Prints Exemplos\modelo_caixa_exemplo.png">
+
+### Elementos flutuantes
+Podemos usar elementos flutuantes para fazer com que essas caixas que nós vimos "flutuem" no site. Com isso, podemos fazer com que elas fiquem na mesma linha, uma em cima da outra, etc.
+```
+float: left;
+```
+Utilizamos do `clear` para que o código seguinte não pegue as características de flutuação.
+```
+clear: both;
+```
+
+#### Resultado
+<img src="Prints Exemplos\elemento_flutuante_exemplo.png">
