@@ -2,6 +2,13 @@
 
 > Este repositório contém o que eu estou aprendendo no curso de CSS3. Nele possui exemplos de comandos e também projetos para praticá-los.
 
+## Projetos
+
+Acesse os projetos feitos utilizando o css.
+
+* <a href="https://github.com/WellingtonGouv/curso-CSS3/tree/main/Projetos/Projeto%20Anna%20Bella"> Projeto Anna Bella </a>
+* <a href="https://github.com/WellingtonGouv/curso-CSS3/tree/main/Projetos/Projeto%20TecBlog">Projeto TecBlog </a>
+
 ## Introdução
 
 O CSS3 é a terceira versão do CSS (Folha de Estilo em Cascata), que tem como função definir estilos para páginas web. Com ele, podemso customizar elementos HTML, como adicionar imagens, backgrounds, fontes, cores, entre muitos outros.
