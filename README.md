@@ -482,3 +482,45 @@ z-index: 1;
 <img src="Prints Exemplos\sobrepor_elemento_exemplo.png">
 
 ***
+
+### Formatando links
+
+Podemos estilizar os links do nosso site. Os links possuem 4 estados: visitado, não visitado, hover e ativo. <br>
+Formatamos os links visitados da seguinte maneira:
+
+```css
+a:visited {
+    color: #c0c0c0;
+}
+```
+
+Para os links não visitados, fazemos assim:
+
+```css
+a:link {
+    color: #b9c941;
+}
+```
+
+O hover é a formatação que aparece quando passamos o mouse em cima do link, ela pode ser feita da seguinte maneira:
+
+```css
+a:hover {
+    color: #fff;
+    background: #6d790f;
+}
+```
+
+O link ativo aparece quando clicamos e seguramos o mouse em cima do link. Podemos formatá-lo assim:
+
+```css
+a:active {
+    color: red;
+}
+```
+
+#### Resultado
+
+<img src="Prints Exemplos\formatando_links_exemplo.png">
+
+***
