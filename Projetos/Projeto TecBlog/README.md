@@ -1,4 +1,4 @@
-# Projeto Anna Bella
+# Projeto TecBlog
 
 Este é um projeto feito no curso de Desenvolvimento Web Completo, sobre uma página fictícia de um blog sobre tecnologia. <br>
 Foi utilizado elementos aprendidos durante o curso, como formatação de links, margens, classes, etc.
